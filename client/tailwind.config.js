@@ -15,7 +15,9 @@ export default {
       'idcolor':'#8672AB',
       'timecolor':'#BDBDBD',
       'navcolor': '#4A2C81',
-      'textcolor': ' #382161'  
+      'textcolor': ' #382161',
+      'theadcolor':  '#DBD5E6'
+  
 
     },
     
