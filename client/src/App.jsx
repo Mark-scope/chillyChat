@@ -11,7 +11,7 @@ function App(){
       <div className="basis-1/6 h-screen">
       <Sidebar></Sidebar>
       </div>
-      <div className="basis-5/6 h-screen ml-2">
+      <div className="basis-5/6 h-screen ml-2 overflow-y-hidden">
       <Main></Main>
       </div>
     </div>
