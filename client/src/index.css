@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+tr, td {
+        margin: 0;
+        padding: 10px;
+}
+
+#search{
+    justify-content: space-between;
+}
+
+#small{
+    margin-left: 1050px;
+    margin-top: 40px;
+    
+}
