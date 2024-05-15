@@ -1,7 +1,7 @@
 function Select(){
     return(
-        <div className="w-72 h-10 font-Poppins m-auto mt-6">
-            <select name="amount"  className="w-full h-full text-center border-2 rounded-lg border-bordercolor bg-inputcolor outline-none">
+        <div className="w-full  font-Poppins mt-[20px]">
+            <select name="amount"  className="w-full h-12 text-center border-2 rounded-lg border-bordercolor bg-inputcolor outline-none">
                 <option value="">--Choose Amount--</option>
                 <option value="5.00">5.00</option>
                 <option value="10.00">10.00</option>

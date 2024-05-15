@@ -7,16 +7,22 @@ import React from 'react'
 const Overview = () => {
     return(
         <>
-    
-        <Navbar></Navbar> 
-        <div className="flex">
-          <div className="basis-1/6 h-screen">
-          <Sidebar></Sidebar>
-          </div>
-          <div className="basis-5/6 h-screen ml-2 overflow-y-hidden">
-          <Main></Main>
+        <div className="flex flex-col">
+          <Navbar className=" "></Navbar> 
+
+          <div className="flex ">
+
+            <div className="w-1/6 ">
+            <Sidebar></Sidebar>
+            </div>
+
+            <div className="w-5/6 pt-[48px]">
+            <Main ></Main>
+            </div>
+
           </div>
         </div>
+
     
         </>
     )

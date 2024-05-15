@@ -2,19 +2,19 @@ import Buycard from "../cards/Buycard";
 import Idcard from "../cards/Idcard";
 import Table from "../cards/Table";
 function Main(){
-    return(
-        <>
-        
-            <div >
-                <Table></Table>
-                <div className="flex-col absolute left-3/4 top-24 h-screen w-92">
+    return(        
+            <div className=" flex flex-row">
 
+                <div className="w-[70%] mx-8">
+                    <Table ></Table>
+                </div>
+
+                <div className="flex-col w-[30%] mx-4 ">
                     <Buycard></Buycard>
                     <Idcard></Idcard>
                 </div>
+
             </div>
-       
-        </>
     )
 }
 export default Main
