@@ -1,11 +1,11 @@
-import Overview from "./pages/Overview"
+import RoutePages from "./RoutePages"
+
+
 function App(){
 
   return(
     <>
-    <Overview/>
-    
-
+    <RoutePages/>
     </>
     
   )

@@ -16,7 +16,7 @@ const Overview = () => {
             <Sidebar></Sidebar>
             </div>
 
-            <div className="w-5/6 pt-[48px]">
+            <div className="w-5/6 pt-10">
             <Main ></Main>
             </div>
 
