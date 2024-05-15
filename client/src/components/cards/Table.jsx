@@ -11,13 +11,13 @@ const Table = () => {
                     <td>Time</td>
                 </tr>
             </thead>
-            <tbody>
+            {/* <tbody>
                 <tr className='flex space-x-64 p-3'>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-            </tbody>
+            </tbody> */}
         </table>
     </div>
   )
