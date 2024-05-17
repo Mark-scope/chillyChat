@@ -39,10 +39,9 @@ const QuickSms = () => {
                 <Select options={senderOptions} />
                 <p className="text-[#737373] pt-4" >Sender’s ID doesn’t exist, create new one with a click below </p>
                 <Button  text="Create ID"></Button>
-              
+                <br/>
                 <Input placeholder="Message" type="textarea" ></Input>
-                {/* <p className="pb-4" ></p> */}
-                <Button className="m-8" text="Send"></Button>                
+                <Button className="m-8" text="Quick Send"></Button>                
 
               </div>
 

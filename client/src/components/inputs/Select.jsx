@@ -2,7 +2,7 @@ const Select = ({ options }) => (
   <div className="w-full font-Poppins mt-[20px]">
     <select
       name="amount"
-      className="w-full h-12 text-center border-2 rounded-lg border-bordercolor bg-inputcolor outline-none"
+      className="w-full h-12 text-left border-2 rounded-lg border-bordercolor bg-inputcolor px-4 outline-none"
     >
       <option value="">{options[0].choose}</option>
       {options.slice(1).map(({ value, text }) => (
