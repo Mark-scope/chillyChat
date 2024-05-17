@@ -16,7 +16,7 @@ const Support = () => {
                             <h1 className="text-2xl font-bold mb-4">Support</h1>
                             <p>Do you need any technical support or are you facing any problems. Reach us via the forms.</p>
                         </div>
-                        <div className="w-6/12 mt-28 mr-6 bg-white rounded-t-lg shadow-md"> {/* Increased the margin-top here */}
+                        <div className="w-6/12 mt-28 mr-6 bg-white rounded-t-lg shadow-md"> 
                             <form className="w-full h-auto rounded-t-lg space-y-4">
                                 <input className="w-full px-3 py-2 border border-gray-300 rounded-md" type="text" placeholder="Full Name" />
                                 <input className="w-full px-3 py-2 border border-gray-300 rounded-md" type="email" placeholder="Email" />
