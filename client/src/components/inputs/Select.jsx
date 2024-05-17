@@ -1,16 +1,30 @@
-function Select({ options }){
-    return(
-        <div className="w-full  font-Poppins mt-[20px]">
-            <select name="amount"  className="w-full h-12 text-center border-2 rounded-lg border-bordercolor bg-inputcolor outline-none">
-                <option value="">--Choose Amount--</option>
-                {options.map(option => (
-                    <option key={option.value} value={option.value}>{option.text}</option>
-                ))}
-            </select>
-        </div>
-    )
-}
-export default Select
+const Select = ({ options }) => (
+  <div className="w-full font-Poppins mt-[20px]">
+    <select
+      name="amount"
+      className="w-full h-12 text-center border-2 rounded-lg border-bordercolor bg-inputcolor outline-none"
+    >
+      <option value="">{options[0].choose}</option>
+      {options.slice(1).map(({ value, text }) => (
+        <option key={value} value={value}>
+          {text}
+        </option>
+      ))}
+    </select>
+  </div>
+);
 
-// Example usage
+export default Select;
+
+// Example usage:
+const MySelect = () => (
+  <Select
+    options={[
+      { value: '', text: 'Choose an option' },
+      { value: 'option1', text: 'Option 1' },
+      { value: 'option2', text: 'Option 2' },
+      { value: 'option3', text: 'Option 3' },
+    ]}
+  />
+);
 
