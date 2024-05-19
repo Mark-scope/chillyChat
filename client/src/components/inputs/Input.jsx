@@ -9,7 +9,7 @@ const Input = (props) => {
       {type === 'textarea' ? (
         <textarea className='w-full h-44 border-2 p-4 rounded-lg border-bordercolor bg-inputcolor outline-none text-left' placeholder={placeholder} />
       ) : (
-        <input type={type} className='w-full h-12 p-4 border-2 rounded-lg border-bordercolor bg-inputcolor outline-non text-left' placeholder={placeholder} />
+        <input type={type} className='w-full h-12 outline-none p-4 border-2 rounded-lg border-bordercolor bg-inputcolor outline-non text-left' placeholder={placeholder} />
       )}
     </div>
   );
