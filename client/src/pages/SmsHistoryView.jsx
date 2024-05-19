@@ -34,11 +34,11 @@ const SmsHistoryView = () => {
           </table>
         </div>
         <div className='flex-col w-2/4 text-divtext'>
-          <div className='w-521 p-4  bg-white shadow-md rounded-md mb-10'>
+          <div className='w-521 p-4  bg-white shadow-md rounded-lg mb-5'>
             <h1 className='border-b border-smsborder text-viewtext font-bold py-3'>Subject</h1>
             <p className='py-5'>Come for momo</p>
           </div>
-          <div className='w-521 p-4 bg-white shadow-md rounded-md'>
+          <div className='w-521 p-4 bg-white shadow-md rounded-lg'>
           <h1 className='border-b border-smsborder text-viewtext font-bold py-3'>Message</h1>
           <p className='py-5'>Lorem ipsum dolor sit amet,
           consectetur adipiscing elit, sed do eiusmod tempor
@@ -47,9 +47,11 @@ const SmsHistoryView = () => {
           ullamco laboris nisi ut aliquip ex ea commodo consequat.
           Duis aute irure dolor in reprehenderit 
           in voluptate velit esse cillum dolore eu fugiat 
-          nulla pariatur. Excepteur sint occaecat cupidatat 
-          non proident, sunt in culpa qui officia deserunt 
-          mollit anim id est laborum</p>
+          </p>
+          </div>
+          <div className='mt-2'>
+            <h1>Time:</h1>
+            <div className='bg-timecolor w-44 text-center text-white rounded p-1'>{new Date().toLocaleString()}</div>
           </div>
         </div>
       </div>
