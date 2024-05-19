@@ -1,13 +1,11 @@
-import Overview from "./pages/Overview"
-import SmsHistory from "./pages/SmsHistory"
+import RoutePages from "./RoutePages"
+
+
 function App(){
 
   return(
     <>
-    {/* <Overview/> */}
-    <SmsHistory />
-    
-
+    <RoutePages/>
     </>
     
   )

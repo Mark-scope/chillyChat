@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Button from "../Button"
 
 
 const Idcard = () => {
   return (
-    <div className='w-80 h-auto bg-white shadow-lg mt-4 absolute top-74 rounded-lg p-3'>
-        <div className="ml-4 mt-2 flex space-x-10"><p className="text-lg pt-2">Sender's ID</p>
-            <button className='w-32 mt-3 bg-navcolor p-2 rounded-lg text-white'>Create ID</button>
+    <div className='w-full flex bg-white shadow-md mt-4 rounded-lg px-6 py-4'>
+        <div className="w-full m-2 flex justify-between items-center">
+        <p className="text-lg flex-50/50">Sender's ID</p>
+        <Button className="flex-50/50" text="Create ID"></Button>
+            
         </div>
     </div>
   )
