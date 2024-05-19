@@ -13,7 +13,7 @@ const RoutePages = () => {
 
                 <Route path="/quick-sms" element={<QuickSms />} />
                 <Route path="/support" element={<Support />} />
-
+                <Route path='/SmsHistory' element= {<SmsHistory/>} />
             </Routes>
         </BrowserRouter>
     );
