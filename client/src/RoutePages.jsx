@@ -3,6 +3,7 @@ import QuickSms from './pages/QuickSms';
 import Overview from './pages/Overview';
 import Support from './pages/support';
 import SmsHistory from './pages/SmsHistory';
+import SmsHistoryView from './pages/SmsHistoryView';
 
 const RoutePages = () => {
     return (
@@ -15,6 +16,7 @@ const RoutePages = () => {
                 <Route path="/quick-sms" element={<QuickSms />} />
                 <Route path="/support" element={<Support />} />
                 <Route path = "/SmsHistory" element={<SmsHistory/>}/>
+                <Route path = "/SmsHistoryView" element={<SmsHistoryView />}/>
             </Routes>
         </BrowserRouter>
     );
