@@ -14,7 +14,7 @@ const SmsHistory = () => {
           <div className="basis-1/6 h-screen">
           <Sidebar></Sidebar>
           </div>
-          <div className="basis-5/6 h-screen ml-2 overflow-y-hidden">
+          <div className="basis-5/6 h-screen ml-16 overflow-y-hidden">
               <h2 className='fixed top-28 text-xl left-42'>Sms History</h2>  
                 <div className='flex w-3/4 absolute top-40 border-b-2 border-timecolor' id="search">
                     <div className='flex space-x-10 pb-3'>
