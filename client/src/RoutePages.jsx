@@ -12,8 +12,6 @@ const RoutePages = () => {
                 <Route path="/" element={<Overview />} />
 
                 <Route path="/quicksms" element={<QuickSms />} />
-
-                <Route path="/quick-sms" element={<QuickSms />} />
                 <Route path="/support" element={<Support />} />
                 <Route path = "/SmsHistory" element={<SmsHistory/>}/>
                 <Route path = "/SmsHistoryView" element={<SmsHistoryView />}/>

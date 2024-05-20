@@ -4,6 +4,7 @@ import Img from '../assets/back-arrow.png'
 
 const SmsHistoryView = () => {
   return (
+
     <div>
       <Smshistorynav></Smshistorynav>
 
@@ -56,6 +57,7 @@ const SmsHistoryView = () => {
         </div>
       </div>
     </div>
+
   )
 }
 
