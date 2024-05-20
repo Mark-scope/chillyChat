@@ -3,9 +3,11 @@ import Navbar from '../components/nav/Navbar'
 
 const SmsHistoryView = () => {
   return (
+
     <div>
       <Navbar></Navbar>
     </div>
+
   )
 }
 
