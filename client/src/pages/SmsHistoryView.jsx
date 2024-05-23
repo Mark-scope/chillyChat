@@ -53,7 +53,7 @@ const SmsHistoryView = () => {
           </div>
         </div>
       </div>
-      <div className='w-28 flex p-3  border-y-2 border-idcolor m-7 ml-20'>
+      <div className='w-28 flex p-3  border-y-2 border-idcolor  ml-20'>
         <a className='flex' href='#'><img src={Img} alt="" />Back</a>
 
       </div>
