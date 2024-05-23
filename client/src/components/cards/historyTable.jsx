@@ -59,7 +59,7 @@ const HistoryTable = () => {
                 <div className='w-52 text-center text-white bg-timecolor rounded-md'>{row.time}</div>
               </td>
               <td>
-                <div className='w-7'>
+                <div className='w-6'>
                   <img
                     src={Img}
                     alt="gear"
