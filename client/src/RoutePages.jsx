@@ -5,6 +5,7 @@ import Support from './pages/support';
 import SmsHistory from './pages/SmsHistory';
 import SmsHistoryView from './pages/SmsHistoryView';
 import Bulksms from './pages/Bulksms';
+import Signup from './pages/Signup';
 
 const RoutePages = () => {
     return (
@@ -17,6 +18,8 @@ const RoutePages = () => {
                 <Route path = "/SmsHistory" element={<SmsHistory/>}/>
                 <Route path = "/SmsHistoryView" element={<SmsHistoryView />}/>
                 <Route path = "/Bulksms" element={<Bulksms />}/>
+                <Route path = "/Signup" element={<Signup />}/>
+
             </Routes>
         </BrowserRouter>
     );

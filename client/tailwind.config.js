@@ -33,6 +33,9 @@ export default {
       spacing: {
       '80%': '80%',
     },
+    backgroundImage: {
+      'custom-gradient': 'linear-gradient(to top, #251641, #4A2C81)',
+    },
     width: {
       '521': '521px'
     }
