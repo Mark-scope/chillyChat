@@ -2,6 +2,7 @@ import React from 'react'
 import Img from "../../assets/trash_bin.png"
 import Img2 from "../../assets/Search 2.png"
 import Input from '../inputs/Input'
+
 const Historytop = () => {
   return (
     
@@ -14,7 +15,7 @@ const Historytop = () => {
                 <a href='#'>Undelivered</a>
             </div>
             <div className='flex space-x-10 pb-3 '>
-                 <Input type="search" placeholder="Search"/><img src={Img2} alt="" className='absolute top-2 pl-40' />
+                 <Input type="search" placeholder="Search" /><img src={Img2} alt="" className='absolute top-2 pl-40' />
                 <div className='w-10 bg-timecolor py-1'><img src={Img} alt="" className='m-auto' /></div>
             </div>
              </div>

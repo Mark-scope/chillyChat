@@ -6,6 +6,7 @@ import Img from "../assets/trash_bin.png"
 import Img2 from "../assets/Search 2.png"
 
 
+
 const SmsHistory = () => {
   return (
     <div>

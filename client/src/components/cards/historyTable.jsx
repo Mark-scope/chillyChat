@@ -33,6 +33,7 @@ const HistoryTable = () => {
   const data = [
     { id: 1, to: 'Messi Johns', subject: 'Come for free momo', status: 'Delivered', time: new Date().toLocaleString() },
     // Add more rows as needed
+    { id: 2, to: 'Abigail watts', subject: 'Please I am waiting for it', status: 'Undelivered', time: new Date().toLocaleString() }
   ];
 
   return (
@@ -54,7 +55,9 @@ const HistoryTable = () => {
               <td><input type='checkbox' checked={!!rowChecked[index]} onChange={() => handleRowChecked(index)} /></td>
               <td>{row.to}</td>
               <td>{row.subject}</td>
-              <td><div className='w-28 text-white bg-green rounded-md text-center'>{row.status}</div></td>
+              <td >
+                <div style={{ backgroundColor: row.status === 'Delivered' ? '#38b000' : '#ef233c' }} className='w-28 text-white text-center rounded-md'>{row.status}</div>
+              </td>
               <td>
                 <div className='w-52 text-center text-white bg-timecolor rounded-md'>{row.time}</div>
               </td>
@@ -64,15 +67,19 @@ const HistoryTable = () => {
                     src={Img}
                     alt="gear"
                     className='relative cursor-pointer' // Added cursor-pointer class for pointer cursor
-                    onClick={handleClick} // Changed to onClick event
+                    onClick={handleClick} 
+                    
                   />
+                 
                 </div>
+                
               </td>
             </tr>
           ))}
+          {showMenu && <SmallMenu />}
         </tbody>
       </table>
-      {showMenu && <SmallMenu />}
+      
     </>
   );
 };
