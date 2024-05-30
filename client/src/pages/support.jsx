@@ -29,11 +29,12 @@ const Support = () => {
 
                 <div className="flex-col w-1/2 p-8 bg-white rounded-[10px] shadow-lg">
 
-                        <Input placeholder="Fullname" type="text" ></Input>
-                        <Input placeholder="Email" type="text" ></Input>
-                        <Input placeholder="Subject" type="text" ></Input>
-                        <Input placeholder="Message" type="textarea" ></Input>
-                        <Button className="m-8" text="Send Message"></Button>
+                    <Input placeholder="Fullname" type="text" ></Input>
+                    <Input placeholder="Email" type="text" ></Input>
+                    <Input placeholder="Subject" type="text" ></Input>
+                    <Input placeholder="Message" type="textarea" ></Input>
+                    <Button className="m-8" text="Send Message"></Button>
+                
                 </div>
 
             
