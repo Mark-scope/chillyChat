@@ -67,8 +67,7 @@ const HistoryTable = () => {
                     src={Img}
                     alt="gear"
                     className='relative cursor-pointer' // Added cursor-pointer class for pointer cursor
-                    onClick={handleClick} 
-                    
+                    onClick={handleClick}                     
                   />
                  
                 </div>
@@ -79,7 +78,6 @@ const HistoryTable = () => {
           {showMenu && <SmallMenu />}
         </tbody>
       </table>
-      
     </>
   );
 };
