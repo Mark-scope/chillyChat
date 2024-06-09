@@ -12,7 +12,22 @@ tr, td {
 }
 
 #small{
-    margin-left: 870px;
+    margin-left: 870px; 
     margin-top: 56px;
 
+}
+
+#box{
+    margin: auto;
+    display: flex;
+    width: 50px;
+    justify-content: space-around;
+    
+}
+
+.circle{
+    width:10px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
 }

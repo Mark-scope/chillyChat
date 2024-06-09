@@ -7,10 +7,16 @@ const Login = () => {
     <div className='flex'>
       {/* Side with image */}
         <div className='w-1/2 text-white flex flex-col justify-center items-center bg-custom-gradient h-screen'>
-            <img className='pb-12 pr-16' src={Loginicon} alt="" />
+            <img className='pb-12 pr-16 mt-10' src={Loginicon} alt="" />
             <p className='font-semibold text-[20px]' >Connect  With Your Target With a Click</p>
             <span className=' pt-4'>Everything you need is easy and simple to use in dashboard</span>
-        </div>
+                <div id='circles' className='w-32  m-auto flex space-x-3'>
+                    <div id='box'>
+                        <span class = "circle"></span>
+                        <span class = "circle"></span>
+                    </div>
+                </div>
+               </div>
 
       {/* main content */}
         <div className='w-1/2 flex flex-col justify-center items-center space-y-10 p-12 '>
