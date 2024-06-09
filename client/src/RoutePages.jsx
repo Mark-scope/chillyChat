@@ -7,6 +7,8 @@ import SmsHistoryView from './pages/SmsHistoryView';
 import Bulksms from './pages/Bulksms';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
+import Delivered from './pages/delivered';
+import Undelivered from './pages/undelivered';
 
 const RoutePages = () => {
     return (
@@ -21,6 +23,9 @@ const RoutePages = () => {
                 <Route path = "/Bulksms" element={<Bulksms />}/>
                 <Route path = "/Signup" element={<Signup />}/>
                 <Route path = "/Login" element={<Login />}/>
+                <Route path='/Delivered' element={< Delivered/>}></Route>
+                <Route path='/Undelivered' element={< Undelivered/>}></Route>
+
 
             </Routes>
         </BrowserRouter>

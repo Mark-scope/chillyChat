@@ -1,16 +1,15 @@
 import React from 'react'
 import Navbar from "../components/nav/Navbar"
 import Sidebar from "../components/sidebar/Sidebar"
-import HistoryTable from '../components/cards/historyTable'
+import DeliveredHistory from '../components/cards/deliveredHistory'
 import Img from "../assets/trash_bin.png"
 import Img2 from "../assets/Search 2.png"
 
 
-
-const SmsHistory = () => {
+const Delivered = () => {
   return (
     <div>
-      <Navbar></Navbar>
+        <Navbar></Navbar>
       <div className="flex">
           <div className="basis-1/6 h-screen">
           <Sidebar></Sidebar>
@@ -28,11 +27,13 @@ const SmsHistory = () => {
                         <div className='w-10 bg-timecolor py-1'><img src={Img} alt="" className='m-auto' /></div>
                     </div>
                 </div>
-                <HistoryTable></HistoryTable>
-          </div>
+                 <DeliveredHistory></DeliveredHistory>
+            </div>
         </div>
+        
+
     </div>
   )
 }
 
-export default SmsHistory
+export default Delivered
