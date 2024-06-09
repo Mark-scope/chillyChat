@@ -39,6 +39,10 @@ tr, td {
     display: block;
 }
 
+#cont{
+    height: 80vh;
+}
+
 .circle{
     width:10px;
     padding: 5px;
