@@ -25,6 +25,20 @@ tr, td {
     
 }
 
+.exam{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1.6rem;
+}
+
+.exam::before, .exam::after{
+    content: "";
+    height: 2px;
+    background-color: #000;
+    display: block;
+}
+
 .circle{
     width:10px;
     padding: 5px;
