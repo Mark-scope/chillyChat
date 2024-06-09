@@ -31,7 +31,7 @@ const QuickSms = () => {
             </div>
 
             {/* main content */}
-            <div className=" flex w-5/6 p-8 bg-white rounded-[10px] shadow-sm m-8">
+            <div  className=" flex w-5/6 h-4/5 p-8 bg-white rounded-[10px] shadow-sm m-8">
               
               <div className="flex flex-col h-full w-1/2 p-4 ">
       
