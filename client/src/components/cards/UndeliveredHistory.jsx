@@ -67,7 +67,8 @@ const UndeliveredHistory = () => {
                     src={Img}
                     alt="gear"
                     className='relative cursor-pointer' // Added cursor-pointer class for pointer cursor
-                    onClick={handleClick}                     
+                    onClick={handleClick}  
+                    style={{position: 'relative'}}                   
                   />
                  
                 </div>
@@ -76,6 +77,7 @@ const UndeliveredHistory = () => {
             </tr>
           ))}
           {showMenu && <SmallMenu />}
+          {/* {<SmallMenu/>} */}
         </tbody>
       </table>
     </>
