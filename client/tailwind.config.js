@@ -16,7 +16,11 @@ export default {
       'timecolor':'#BDBDBD',
       'navcolor': '#4A2C81',
       'textcolor': ' #382161',
-      'theadcolor':  '#DBD5E6'
+      'theadcolor':  '#DBD5E6',
+      'viewtext': '#404040',
+      'smsborder':' #C8C3C3',
+      'divtext':  '#797979'
+
   
 
     },
@@ -28,6 +32,12 @@ export default {
     extend: {
       spacing: {
       '80%': '80%',
+    },
+    backgroundImage: {
+      'custom-gradient': 'linear-gradient(to top, #251641, #4A2C81)',
+    },
+    width: {
+      '521': '521px'
     }
 }
     

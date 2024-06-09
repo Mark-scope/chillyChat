@@ -1,32 +1,46 @@
-import React from 'react'
 import Navbar from "../components/nav/Navbar"
 import Sidebar from "../components/sidebar/Sidebar"
+import Button from "../components/Button"
+import Input from "../components/inputs/Input"
+
+  
 
 const Support = () => {
     return (
-        <div className="flex">
-            <div className="w-2/12">
-                <Sidebar />
+        <div className="flex flex-col">
+          <Navbar className=" "></Navbar> 
+
+          <div className="flex ">
+
+            <div className="w-1/6 ">
+            <Sidebar></Sidebar>
             </div>
-            <div className="w-10/12 mx-auto">
-                <Navbar />
-                <div className="container mx-auto">
-                    <div className="flex justify-between">
-                        <div className="w-5/12 px-4">
-                            <h1 className="text-2xl font-bold mb-4">Support</h1>
-                            <p>Do you need any technical support or are you facing any problems. Reach us via the forms.</p>
-                        </div>
-                        <div className="w-6/12 mt-28 mr-6 bg-white rounded-t-lg shadow-md"> 
-                            <form className="w-full h-auto rounded-t-lg space-y-4">
-                                <input className="w-full px-3 py-2 border border-gray-300 rounded-md" type="text" placeholder="Full Name" />
-                                <input className="w-full px-3 py-2 border border-gray-300 rounded-md" type="email" placeholder="Email" />
-                                <textarea className="w-full h-32 px-3 py-2 border border-gray-300 rounded-md" placeholder="Message"></textarea>
-                                <button className="px-[16px] my-[10px] h-12 bg-navcolor text-white font-sans  rounded-lg">Send Message</button>
-                            </form>
-                        </div>
+
+
+            {/* main content */}
+            <div className="flex w-5/6 flex-row m-12">
+
+                <div className="w-1/2">
+                    <div className=" pr-4">
+                        <h1 className="text-2xl mb-4">Support</h1>
+                        <p>Do you need any technical support or are you facing any problems. Reach us via the forms.</p>
                     </div>
                 </div>
+
+                <div className="flex-col w-1/2 p-8 bg-white rounded-[10px] shadow-lg">
+
+                    <Input placeholder="Fullname" type="text" ></Input>
+                    <Input placeholder="Email" type="text" ></Input>
+                    <Input placeholder="Subject" type="text" ></Input>
+                    <Input placeholder="Message" type="textarea" ></Input>
+                    <Button className="m-8" text="Send Message"></Button>
+                
+                </div>
+
+            
             </div>
+
+          </div>
         </div>
     );
 }
