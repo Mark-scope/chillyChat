@@ -15,7 +15,7 @@ function Main(){
                     <Buycard></Buycard>
                     <Idcard></Idcard>
                 </div>
-                <div className="w-full h-full absolute z-10">
+                <div className="w-full h-full absolute z-10 hidden">
                     <div id ="pop" className="w-full h-full absolute z-20  ">
                         <PopupBox></PopupBox>
                     </div>
