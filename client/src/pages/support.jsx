@@ -27,7 +27,7 @@ const Support = () => {
                     </div>
                 </div>
 
-                <div class = "cont" className="flex-col w-1/2 p-8 bg-white rounded-[10px] shadow-lg">
+                <div class = "cont" className="flex-col w-1/2 h-80 p-8 bg-white rounded-[10px] shadow-lg">
 
                     <Input placeholder="Fullname" type="text" ></Input>
                     <Input placeholder="Email" type="text" ></Input>

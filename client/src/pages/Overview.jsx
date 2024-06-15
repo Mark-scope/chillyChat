@@ -8,19 +8,20 @@ const Overview = () => {
     return(
         <>
         <div className="flex flex-col">
-          <Navbar className=" "></Navbar> 
+          <Navbar></Navbar> 
 
           <div className="flex ">
 
             <div className="w-1/6 ">
             <Sidebar></Sidebar>
             </div>
-
+            
             <div className="w-5/6 pt-10">
             <Main ></Main>
             </div>
 
           </div>
+          
         </div>
 
     

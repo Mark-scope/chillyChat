@@ -38,6 +38,11 @@ export default {
     },
     width: {
       '521': '521px'
+    },
+    height: {
+      '90': '90vh',
+      '80': '80vh',
+      '60': '60vh'
     }
 }
     
